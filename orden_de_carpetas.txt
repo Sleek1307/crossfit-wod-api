@@ -1,0 +1,8 @@
+FLUJO DE TRABAJO DEL BACKEND📒
+  
+  *Envia la solicitud al router => Router
+  *El router llama al controlador => Controlador
+  *El controlador formatea, valida los datos y los envia al service. => Service
+  *El Servicio genera la instancia con los datos que van ser usados en el CRUD y llama al 
+   esquema que gestiona la base de datos(ORM o Consultas personalizadas). => Schema
+  *El esquema se comunica con la base de datos y envia los datos al gestor de la base de datos. => Gestor de base de datos
